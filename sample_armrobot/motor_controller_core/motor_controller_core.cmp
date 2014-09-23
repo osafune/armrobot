@@ -1,0 +1,19 @@
+	component motor_controller_core is
+		port (
+			clk_clk          : in  std_logic                    := 'X'; -- clk
+			reset_reset_n    : in  std_logic                    := 'X'; -- reset_n
+			sci_sclk         : in  std_logic                    := 'X'; -- sclk
+			sci_txd          : in  std_logic                    := 'X'; -- txd
+			sci_txr_n        : out std_logic;                           -- txr_n
+			sci_rxd          : out std_logic;                           -- rxd
+			sci_rxr_n        : in  std_logic                    := 'X'; -- rxr_n
+			motor_ch1_export : out std_logic_vector(9 downto 0);        -- export
+			motor_ch2_export : out std_logic_vector(9 downto 0);        -- export
+			motor_ch3_export : out std_logic_vector(9 downto 0);        -- export
+			motor_ch4_export : out std_logic_vector(9 downto 0);        -- export
+			motor_ch5_export : out std_logic_vector(9 downto 0);        -- export
+			pwmled_export    : out std_logic_vector(7 downto 0);        -- export
+			sysled_export    : out std_logic                            -- export
+		);
+	end component motor_controller_core;
+

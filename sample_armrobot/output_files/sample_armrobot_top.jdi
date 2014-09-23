@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="22f96c5f28422bd116d1"/>
+  </project>
+  <file_info>
+    <file device="EP4CE6E22C8" path="sample_armrobot_top.sof" usercode="0x20140902"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="motor_controller_core:u0" name="u0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME motor_controller_core HAS_SOPCINFO 1 GENERATION_ID 1409345122"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

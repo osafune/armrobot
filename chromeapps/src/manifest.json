@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"minimum_chrome_version": "35",
+
+	"name": "ARM-ROBOT Controller",
+	"description": "PERIDOTボードでアームロボットを操作するサンプルです",
+	"icons": {
+		"128": "img/robologo_icon.png"
+	},
+	"version": "0.1",
+
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+
+	"permissions": [
+		"serial"
+	]
+}
